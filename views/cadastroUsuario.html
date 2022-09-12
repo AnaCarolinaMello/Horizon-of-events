@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+    <link rel="stylesheet" href="../public/style/cadastroUsuario.css">
+</head>
+<body>
+    <div id="container">
+        <form action="" method="post" id="cadastro">
+            <h2>Cadastro</h2>
+            <label for="nome">Nome completo:</label>
+            <input type="text" placeholder="Ex:João Vitor de Almeida" required>
+            <label for="username">Nome de usuário:</label>
+            <input type="text" placeholder="Username" required>
+            <label for="email">E-mail:</label>
+            <input type="text" placeholder="username@email.com" required>
+            <label for="telefone">Telefone(opcional):</label>
+            <input type="tel" placeholder="(31)99999-9999">
+            <label for="password">Senha:</label>
+            <input type="text" min="8" max="32">
+            <label for="password">Confirme a senha:</label>
+            <input type="text" min="8" max="32">
+            <input type="submit" id="confirm">
+        </form>
+        <div id="login">
+            <p>Já tem uma conta? <a href="#">Cadastre-se</a></p>
+        </div>
+    </div>
+</body>
+</html>

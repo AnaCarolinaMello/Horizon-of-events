@@ -1,0 +1,67 @@
+
+body{
+    background-color: #5e5c5c;
+}
+
+#container{
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    margin-right: -50%;
+    transform: translate(-50%,-50%);
+}
+
+#cadastro{
+    display: flex;
+    flex-direction: column;
+    width: 300px;
+    min-width: 300px;
+    max-width: 500px;
+    border: 1px solid black;
+    border-radius: 6px;
+    padding: 20px;
+    background-color: lightgray;
+}
+
+#confirm{
+    margin-top: 10px;
+    width: 150px;
+    height: 38px;
+    padding: 8px;
+    border: 1px solid black;
+    border-radius: 6px;
+    font-size: 1em;
+    align-self: center;
+}
+
+label{
+    font-size: 1.2em;
+}
+
+input{
+    border: 1px solid lightgray;
+    border-radius: 8px;
+    padding: 7px;
+    margin-bottom: 6px;
+}
+
+#login{
+    width: 340px;
+    min-width: 300px;
+    border: 1px solid black;
+    border-radius: 6px;
+    margin-top: 5px;
+    background-color: lightgray;
+}
+
+p{
+    text-align: center;
+}
+
+a{
+    text-decoration: none;
+}
+
+h2{
+    text-align: center;
+}
