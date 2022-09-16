@@ -10,23 +10,23 @@
 <body>
     <div id="container">
         <form action="" method="post" id="cadastro">
-            <h2>Cadastro</h2>
-            <label for="nome">Nome completo:</label>
-            <input type="text" placeholder="Ex:João Vitor de Almeida" required id="nome">
-            <label for="username">Nome de usuário:</label>
-            <input type="text" placeholder="Username" required id = "username">
-            <label for="email">E-mail:</label>
-            <input type="text" placeholder="username@email.com" required id = "email">
-            <label for="telefone">Telefone(opcional):</label>
-            <input type="tel" placeholder="(31)99999-9999" id = "telefone">
-            <label for="password">Senha:</label>
-            <input type="password" min="8" max="32" id = "senha">
-            <label for="password">Confirme a senha:</label>
-            <input type="password" min="8" max="32" id="confirme_senha">
-            <input type="submit" id="confirm">
+            <h2>Horizon of events</h2>
+            <!-- <label for="nome">Nome completo:</label> -->
+            <input type="text" placeholder="Nome completo" required id="nome" autocomplete="off" autocapitalize="off" autocorrect="off">
+            <!-- <label for="username">Nome de usuário:</label> -->
+            <input type="text" placeholder="Nome de usuário" required id = "username" autocomplete="off" autocapitalize="off" autocorrect="off">
+            <!-- <label for="email">E-mail:</label> -->
+            <input type="text" placeholder="Email" required id = "email" autocomplete="off" autocapitalize="off" autocorrect="off">
+            <!-- <label for="telefone">Telefone(opcional):</label> --> 
+            <input type="tel" placeholder="Telefone" id = "telefone" autocomplete="off" autocapitalize="off" autocorrect="off">
+            <!-- <label for="password">Senha:</label> -->
+            <input type="password" min="8" max="32" placeholder="Senha" id = "senha" >
+            <!-- <label for="password">Confirme a senha:</label> -->
+            <input type="password" min="8" max="32" placeholder="Senha" id="confirme_senha">
+            <input type="submit" id="confirm" value="Cadastre-se">
         </form>
         <div id="login">
-            <p>Já tem uma conta? <a href="#">Cadastre-se</a></p>
+            <p>Já tem uma conta? <a href="./loginUsuario.html">Faça login</a></p>
         </div>
     </div>
     <script src="../index.js"></script>
