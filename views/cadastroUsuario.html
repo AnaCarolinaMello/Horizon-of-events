@@ -12,22 +12,23 @@
         <form action="" method="post" id="cadastro">
             <h2>Cadastro</h2>
             <label for="nome">Nome completo:</label>
-            <input type="text" placeholder="Ex:João Vitor de Almeida" required>
+            <input type="text" placeholder="Ex:João Vitor de Almeida" required id="nome">
             <label for="username">Nome de usuário:</label>
-            <input type="text" placeholder="Username" required>
+            <input type="text" placeholder="Username" required id = "username">
             <label for="email">E-mail:</label>
-            <input type="text" placeholder="username@email.com" required>
+            <input type="text" placeholder="username@email.com" required id = "email">
             <label for="telefone">Telefone(opcional):</label>
-            <input type="tel" placeholder="(31)99999-9999">
+            <input type="tel" placeholder="(31)99999-9999" id = "telefone">
             <label for="password">Senha:</label>
-            <input type="text" min="8" max="32">
+            <input type="password" min="8" max="32" id = "senha">
             <label for="password">Confirme a senha:</label>
-            <input type="text" min="8" max="32">
+            <input type="password" min="8" max="32" id="confirme_senha">
             <input type="submit" id="confirm">
         </form>
         <div id="login">
             <p>Já tem uma conta? <a href="#">Cadastre-se</a></p>
         </div>
     </div>
+    <script src="../index.js"></script>
 </body>
 </html>
