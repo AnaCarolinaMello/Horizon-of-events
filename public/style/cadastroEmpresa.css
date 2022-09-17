@@ -30,6 +30,11 @@
     border-radius: 6px;
     font-size: 1em;
     align-self: center;
+    transition: 0.5s;
+}
+#confirm:hover{
+    background-color: #499be7;
+    transform: scale(1.3);
 }
 
 #login{

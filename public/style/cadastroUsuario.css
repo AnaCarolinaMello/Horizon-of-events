@@ -34,11 +34,12 @@ body{
     background-color: #50aaff;
     color: white;
     font-weight: bold;
+    transition: 0.3s;
 }
 
 #confirm:hover{
     background-color: #499be7;
-    transition: 0.3s;
+    transform: scale(1.1);
 }
 /* 
 label{

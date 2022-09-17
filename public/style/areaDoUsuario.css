@@ -27,8 +27,11 @@ body{
 }
 
 #dados{
+    display: grid;
+    grid-template-rows: 1fr 1fr;
     font-family: 'Source Sans Pro', sans-serif;
     position: relative;
     align-self: center;
+    gap: 10%;
     
 }
