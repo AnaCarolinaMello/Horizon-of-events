@@ -1,5 +1,9 @@
+@import url('https://fonts.googleapis.com/css2?family=Titillium+Web:wght@300&display=swap');
+
 body{
-    background-color: #5e5c5c;    font-family: 'Source Sans Pro', sans-serif;
+    height: 100vh;
+    background: linear-gradient(to bottom right, #e7e6e6 4%, #c5c5c5 37%, #999999 100%);  
+    font-family: 'Source Sans Pro', sans-serif;
 }
 
 #container{
@@ -7,9 +11,9 @@ body{
     height: 200px;
     width: 70%;
     margin: 100px;
-    background-color: lightgray;
+    background-color: white;
     display: grid;
-    grid-template-columns: 1fr 2fr;
+    grid-template-columns: 2fr 3fr 1fr;
     border-radius: 6px;
 }
 
@@ -34,4 +38,15 @@ body{
     align-self: center;
     gap: 10%;
     
+}
+
+#edit{
+    position: relative;
+    border: none;
+    background: none;
+    border-radius: 6px;
+    padding: 3px 5px 3px 5px;
+    top: 15%;
+    left: 50%;
+    transform: translate(-50%,-50%);
 }

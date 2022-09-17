@@ -6,23 +6,25 @@
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
     <title>Document</title>
     <link rel="stylesheet" href="../public/style/cadastroUsuario.css">
+    <link rel="shortcut icon" href="../logo2.ico" type="image/x-icon">
 </head>
 <body>
     <div id="container">
         <form action="" method="post" id="cadastro">
             <h2>Horizon of events</h2>
-            <!-- <label for="nome">Nome completo:</label> -->
-            <input type="text" placeholder="Nome completo" required id="nome" autocomplete="off" autocapitalize="off" autocorrect="off">
-            <!-- <label for="username">Nome de usuário:</label> -->
-            <input type="text" placeholder="Nome de usuário" required id = "username" autocomplete="off" autocapitalize="off" autocorrect="off">
-            <!-- <label for="email">E-mail:</label> -->
-            <input type="text" placeholder="Email" required id = "email" autocomplete="off" autocapitalize="off" autocorrect="off">
-            <!-- <label for="telefone">Telefone(opcional):</label> --> 
-            <input type="tel" placeholder="Telefone" id = "telefone" autocomplete="off" autocapitalize="off" autocorrect="off">
-            <!-- <label for="password">Senha:</label> -->
-            <input type="password" min="8" max="32" placeholder="Senha" id = "senha" >
-            <!-- <label for="password">Confirme a senha:</label> -->
-            <input type="password" min="8" max="32" placeholder="Senha" id="confirme_senha">
+            <p id="txtHorizon">Cadastre-se para encontrar um horizonte de enventos</p>
+            <!-- <label class="required"></label> -->
+            <input type="text" placeholder="Nome completo" required id="nome" autocomplete="off" autocapitalize="off" autocorrect="off" >
+            <!-- <label class="required"></label> -->
+            <input type="text" placeholder="Nome de usuário" required id = "username" autocomplete="off" autocapitalize="off" autocorrect="off" >
+            <!-- <label class="required"></label> -->
+            <input type="text" placeholder="Email" required id = "email" autocomplete="off" autocapitalize="off" autocorrect="off" >
+            <!-- <label class="required" id="hidden"></label> -->
+            <input type="tel" placeholder="Telefone" id = "telefone" autocomplete="off" autocapitalize="off" autocorrect="off" >
+            <!-- <label class="required"></label> -->
+            <input type="password" placeholder="Senha" min="8" max="32" required  id = "senha" >
+            <!-- <label class="required"></label> -->
+            <input type="password" placeholder="Senha" min="8" max="32" required  id="confirme_senha">
             <input type="submit" id="confirm" value="Cadastre-se">
         </form>
         <div id="login">
